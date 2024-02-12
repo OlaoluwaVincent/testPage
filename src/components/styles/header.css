@@ -1,0 +1,58 @@
+* {
+  color: #222222;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header--section {
+  padding: 23px 20px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header--nav {
+  align-self: flex-start;
+  width: 70%;
+  align-items: center;
+}
+
+.header--list-items {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+
+.list_item {
+  flex-direction: row;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.hamburgerIcon{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .header--section {
+    padding: 16px;
+  }
+
+  .hamburgerIcon{
+    display: block;
+    cursor: pointer;
+}
+
+  .header--nav {
+    display: none;
+  }
+
+  .logo_img {
+    height: 32px;
+  }
+}
