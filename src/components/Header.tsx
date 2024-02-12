@@ -7,7 +7,7 @@ const Header = () => {
     <section className="header--section">
       <a href="/" className="header--logo">
         <img
-          src="public/blue-01 1.png"
+          src="/blue-01 1.png"
           alt="Logo Icon"
           className="logo_img"
         />
@@ -21,7 +21,7 @@ const Header = () => {
           ))}
         </ul>
       </nav>
-      <img src="./public/hamburgerIcon.png" className="hamburgerIcon"/>
+      <img src="/hamburgerIcon.png" className="hamburgerIcon"/>
     </section>
   );
 };
