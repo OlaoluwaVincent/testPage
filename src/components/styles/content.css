@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 6fr);
   gap: 64px;
+  
 }
 
 .main--form > .header > p {
@@ -143,6 +144,7 @@ textarea {
     .content {
       grid-template-columns: 12fr;
       padding: 0;
+      padding-bottom: 30px;
     }
     .content > img {
       display: none;
