@@ -7,7 +7,7 @@ const Header = () => {
     <section className="header--section">
       <a href="/" className="header--logo">
         <img
-          src="./public/blue-01 1.png"
+          src="public/blue-01 1.png"
           alt="Logo Icon"
           className="logo_img"
         />

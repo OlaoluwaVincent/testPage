@@ -4,7 +4,7 @@ const Content = () => {
   return (
     <div className="content">
       <ContactForm />
-      <img src="./public/sideImg.png" alt="Contact Form Descriptive Image" />
+      <img src="public/sideImg.png" alt="Contact Form Descriptive Image" />
     </div>
   );
 };
