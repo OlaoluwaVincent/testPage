@@ -142,6 +142,7 @@ textarea {
 @media only screen and (max-width: 600px) {
     .content {
       grid-template-columns: 12fr;
+      padding: 0;
     }
     .content > img {
       display: none;
